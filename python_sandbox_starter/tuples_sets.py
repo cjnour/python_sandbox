@@ -34,6 +34,9 @@ fruits_set.add("Grape")
 # Remove from set
 fruits_set.remove("Grape")
 
+# Add duplicate to set
+fruits_set.add("Apples")  # No error, just won't add twice
+
 # Clear set
 fruits_set.clear()
 
